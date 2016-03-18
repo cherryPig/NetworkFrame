@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':volley')
+    testCompile 'junit:junit:4.12'
+    compile 'com.squareup.okhttp:okhttp:2.5.0'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.5.0'
+}
